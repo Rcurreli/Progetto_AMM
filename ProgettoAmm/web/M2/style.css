@@ -1,0 +1,89 @@
+/* 
+    Created on : 12-apr-2017, 18.41.00
+    Author     : Riccardo
+*/
+
+body{
+    background-color: #25B7F5;
+    font-family: "MS Gothic", Gothic, serif;
+    font-size: 12px;
+    color: orange;
+}
+
+h1{
+    font-family: "Arial", Times, serif;
+    font-size: 20px;
+    margin: 5px;
+}
+
+h2{
+    font-family: "Arial", Times, serif;
+    font-size: 16px;
+    margin: 5px;
+}
+
+h3{
+    font-family: "Arial", Times, serif;
+    font-size: 12px;
+    margin: 5px;
+}
+
+a:link {
+    text-decoration: underline;
+    color: green;
+}
+input:focus{
+    border-color: purple;
+}
+
+#anticamera{
+    border: black solid 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#NerdRecinto{
+    display: inline;
+    border-right: solid black 10px;
+    padding-right: 97px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#PeopleGroup{
+    float: left;
+    width: 200px;
+    border: solid black 10px;
+    padding-bottom: 100%;
+}
+#bachecaPost{
+    margin-left: 230px;
+}
+.Post{
+    border: solid black 10px;
+    margin-bottom: 15px;
+}
+#FraseMalvenuto{
+    border: solid black 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+nav > a {
+
+     margin-right: 50px;
+     padding-right: 50px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+#FormAzione{
+    border: solid black 10px;
+    margin: 0px auto;
+    width: 300px;   
+}
+label::after, label::before { 
+    content: '\A'; 
+    white-space: pre; 
+}
+button {
+        margin-top: 5px;
+        width: 100%;
+    }
